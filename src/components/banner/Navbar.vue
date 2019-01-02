@@ -1,14 +1,14 @@
 <template>
     <div class="custom-navbar">
-        <span class="icon">
+        <a class="icon" href="#">
             <font-awesome-icon icon="home" size="lg" />
-        </span>
-        <span class="icon">
+        </a>
+        <a class="icon" href="#">
             <font-awesome-icon icon="file-word" size="lg" />
-        </span>
-        <span class="icon">
+        </a>
+        <a class="icon" href="#">
             <font-awesome-icon :icon="['fab', 'facebook']" size="lg" />
-        </span>
+        </a>
 
     </div>
 </template>
@@ -24,7 +24,10 @@ export default {
 .icon {
     padding: 0.5rem;
     &:hover {
-        color: rgb(0, 204, 255);
+        color: rgb(0, 204, 255) !important;
     }
+}
+a {
+    color: white !important;
 }
 </style>

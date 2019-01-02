@@ -1,17 +1,13 @@
 <template>
 
-  <div class="banner jumbotron fullheight">
-    <div class="darken fullheight">
+  <div class="banner jumbotron">
+    <div class="darken">
       
-      <div class="container d-flex h-100">
-        <div class="row w-100">
-          <div class="col-12 justify-content-center">
+      <div class="d-flex fullheight">
+          <div class="align-self-center justify-content-center w-100">
+            <h1>Hello World</h1>
             <Navbar />
           </div>
-          <div class="col-12 my-auto">
-            <h1>Hello World</h1>
-          </div>
-        </div>
       </div>
 
 
